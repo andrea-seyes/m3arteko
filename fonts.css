@@ -1,0 +1,30 @@
+/* BallPill */
+@font-face {
+    font-family: 'BallPill';
+    src: url('./BallPill/BallPill-regular.woff') format('woff'),
+    url('./BallPill/BallPill-regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
+
+/* Graphie */
+@font-face {
+    font-family: 'Graphie';
+    src: url('./Graphie/Graphie-Italic.woff') format('woff'),
+    url('./Graphie/Graphie-Italic.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'Graphie';
+    src: url('./Graphie/Graphie-Regular.woff') format('woff'),
+    url('./Graphie/Graphie-Regular.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
