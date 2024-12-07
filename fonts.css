@@ -95,3 +95,21 @@ body {
     width: 100%;
     z-index: 99;
   }
+
+
+/* Image Aspect Ratio */
+.product-list-image-container {
+  aspect-ratio: 3/4;
+}
+
+/* Productos sin precio */
+@media only screen and (max-width: 800px) {
+  .Sinprecio.product-container h1 { margin-bottom: 16px;}
+}
+.Sinprecio.product-container h1{ margin-bottom: 64px;}
+.Sinprecio.product-container .product-subheader{ display: none;}
+.Sinprecio.product-container .product-form{ display: none;}
+.Sinprecio.product-container .product-section-subheader{ display: none;}
+.Sinprecio.product-container .product-availability{ display: none;}
+/* .Sinprecio.product-container .product-section-subheader{ display: none;} */
+
