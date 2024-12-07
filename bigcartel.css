@@ -1,33 +1,3 @@
-/* BallPill */
-@font-face {
-    font-family: 'BallPill';
-    src: url('./BallPill/BallPill-regular.woff') format('woff'),
-    url('./BallPill/BallPill-regular.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-display: auto;
-}
-
-/* Graphie */
-@font-face {
-    font-family: 'Graphie';
-    src: url('./Graphie/Graphie-Italic.woff') format('woff'),
-    url('./Graphie/Graphie-Italic.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-display: auto;
-}
-@font-face {
-    font-family: 'Graphie';
-    src: url('./Graphie/Graphie-Regular.woff') format('woff'),
-    url('./Graphie/Graphie-Regular.woff2') format('woff2');
-    font-style: italic;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-display: auto;
-}
 
 :root {
     --header-font: "BallPill", sans-serif !important;
@@ -42,6 +12,13 @@ h1, h2, h3, h4, h5, h6 {
   text-indent: 0.2em;
 }
 header .logo {
+  font-size: 24px;
+  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  line-height: 2rem;
+  display: inline-flex;
+  align-items: center;
   font-family: var(--header-font);
   text-align: left;
 }
@@ -50,6 +27,8 @@ header .logo {
   font-weight: 600;
   letter-spacing: 0.2em;
   line-height: 1.25em;
+  margin-right: -0.2em;
+  padding: 0 16px 24px 16px;
   text-transform: none !important;
 }
 .product-container .product-subheader {
@@ -62,14 +41,20 @@ header .logo {
   text-transform: none !important;
   letter-spacing: 0.2em;
   text-indent: 0.2em;
+  margin: 16px auto 64px auto;
+  padding: 0;
+  text-align: center;
 }
 .product-artists {
   font-family: var(--header-font);
   letter-spacing: 0.1em;
   text-transform: none !important;
+  margin: 32px 0;
 }
 .product-section-subheader {
   border-bottom: 1px solid var(--border-color);
+  margin: 32px auto 16px;
+  padding: 16px 0;
   text-align: center;
   text-transform: none !important;
   font-family: var(--header-font);
@@ -77,21 +62,46 @@ header .logo {
   letter-spacing: 0.2em;
 }
 .pagination {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
   border-top: 1px solid var(--border-color);
   font-family: var(--header-font);
+  line-height: 40px;
+  margin: 0 auto 32px auto;
+  max-width: 640px;
+  padding-top: 32px;
   text-transform: none !important;
 }
 
 /* Graphie */
 body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background: var(--background-color);
     color: var(--text-color);
     font: normal 100%/1.5 var(--text-font);
     -webkit-font-smoothing: antialiased;
   }
   header {
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    border-bottom: none;
     font-family: var(--text-font);
     font-weight: 600;
     height: var(--header-height);
+    gap: 16px;
+    padding: 0 32px;
+    margin-top: 0;
     width: 100%;
     z-index: 99;
   }
