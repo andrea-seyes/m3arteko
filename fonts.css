@@ -1,8 +1,8 @@
 /* BallPill */
 @font-face {
     font-family: 'BallPill';
-    src: url('./BallPill/BallPill-regular.woff') format('woff'),
-    url('./BallPill/BallPill-regular.woff2') format('woff2');
+    src: url('https://github.com/andrea-seyes/m3arteko/blob/3f466496aebb8b4839836f801891a86c14455fc7/BallPill/BallPill-regular.woff') format('woff'),
+    url('https://github.com/andrea-seyes/m3arteko/blob/3f466496aebb8b4839836f801891a86c14455fc7/BallPill/BallPill-regular.woff2') format('woff2');
     font-style: normal;
     font-weight: 400;
     text-rendering: optimizeLegibility;
