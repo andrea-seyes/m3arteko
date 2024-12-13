@@ -1,0 +1,9 @@
+<FilesMatch "\.(eot|ttf|otf|woff)$">
+    Header set Access-Control-Allow-Origin "https://m3arteko.seyes.studio"
+    <!-- Header set Access-Control-Allow-Origin "*" -->
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "https://m3arteko.seyes.studio"
+    Header always set Timing-Allow-Origin "https://m3arteko.seyes.studio"
+</IfModule>

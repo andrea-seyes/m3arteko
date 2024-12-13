@@ -1,14 +1,14 @@
 /* BallPill */
-/* @font-face {
+@font-face {
     font-family: 'BallPill';
-    src: url('./BallPill/BallPill-regular.woff') format('woff'),
-    url('./BallPill/BallPill-regular.woff2') format('woff2'), 
-    url("./BallPill/BallPill-regular.otf") format("opentype");
+    src: 
+    /* url('./BallPill/BallPill-regular.woff') format('woff'), */
+    url(https://seyes.studio/m3arteko/BallPill/BallPill-regular.woff2) format('woff2');
     font-style: normal;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-display: auto;
-} */
+}
 
 /* Graphie */
 /* @font-face {
@@ -23,10 +23,18 @@
 } */
 @font-face {
     font-family: 'Graphie';
-    src: url('https://m3arteko.seyes.studio/Graphie/Graphie-Regular.woff') format('woff'),
-    url('https://m3arteko.seyes.studio/Graphie/Graphie-Regular.woff2') format('woff2');
+    src: 
+    /* url('./Graphie/Graphie-Regular.woff') format('woff'), */
+    url(https://seyes.studio/m3arteko/Graphie/Graphie-Regular.woff2) format('woff2');
     font-style: italic;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     font-display: auto;
+}
+@font-face {
+    font-family: 'Graphie';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://seyes.studio/m3arteko/Graphie/Graphie-Regular.woff2) format('woff2');
 }
